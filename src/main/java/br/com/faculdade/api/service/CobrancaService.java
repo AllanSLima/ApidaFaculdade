@@ -22,7 +22,7 @@ import java.util.Random;
 public class CobrancaService {
 
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String API_BOLETOS_URL = "http://localhost:8082/boletos";
+    private final String API_BOLETOS_URL = "https://apidosboletos.onrender.com/boletos";
 
     @Autowired
     private CobrancaRepository cobrancaRepository;
